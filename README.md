@@ -1,3 +1,6 @@
+# Download
+[Here](https://drive.google.com/uc?export=download&id=1GXUynz-3qBgwZ2vnQv5RtCB6_-nwssU8)
+
 # Trustless Random Generator (TRG)
 TRG does exactly what it's name describes. It is a random generator that requires no trust when using. It is used to remove third parties and keep transparency.
 
@@ -6,3 +9,7 @@ Imagine Bob is organizing a game jam (Game creation event following a specific t
 
 # How does it work?
 TRG uses Bitcoin's immutable blockchain as a solution. The program fetches the most recent block hash to use as a seed for the random generation. Users can verify that the used seed was a valid hash at the moment the organizer said he would generate the data. The blockchain used can be easily changed from the code, the Litecoin or Ethereum blockchains could be used for intervals, but at a greater risk of orphaned blocks.
+
+# How do you use TRG?
+Simply specify the input file as an argument like this :
+`java -jar "inputFile.csv"`. The file must have the values separated by commas.
